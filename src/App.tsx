@@ -3,6 +3,7 @@ import "./App.css";
 import Biografia from "./components/Biografia/Biografia";
 import Header from "./components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
+import Um from "./components/Um/Um";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Biografia />
       <Sobre />
+      <Um />
     </>
   );
 }
