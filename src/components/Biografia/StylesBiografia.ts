@@ -53,9 +53,9 @@ const BiografiaParagrafo = styled.p`
 `;
 
 const RedesSociais = styled.ul`
-  width: 10rem;
+  width: 15rem;
   height: auto;
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
   list-style: none;
   display: flex;
 `;
