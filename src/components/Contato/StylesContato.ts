@@ -67,7 +67,7 @@ const ContatoTexto = styled.p`
   width: 16rem;
   color: ${colors.textColor};
   text-align: center;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   margin-top: 20px;
   line-height: 1.2;
