@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Biografia from "./components/Biografia/Biografia";
 import Contato from "./components/Contato/Contato";
+import Footer from "./components/Footer/Footer";
 import GridComponente from "./components/GridFotos/GridComponente";
 import Header from "./components/Header/Header";
 import Informacoes from "./components/Informacoes/Informacoes";
@@ -18,6 +19,7 @@ function App() {
       <GridComponente />
       <Informacoes />
       <Contato />
+      <Footer />
     </>
   );
 }
