@@ -14,11 +14,19 @@ const GridContainer = styled.section`
 `;
 
 const ContainerFotos = styled.div`
-  width: 85%;
+  width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3rem 0;
   justify-items: center;
+  @media (max-width: 1250px) {
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+  }
+  @media (max-width: 800px) {
+    width: auto;
+    grid-template-columns: 1fr;
+  }
 `;
 
 const WrapperFoto = styled.div`

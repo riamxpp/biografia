@@ -50,6 +50,12 @@ const BiografiaParagrafo = styled.p`
   width: 739px;
   word-wrap: break-word;
   text-align: justify;
+  @media (max-width: 1000px) {
+    width: 500px;
+  }
+  @media (max-width: 570px) {
+    width: 340px;
+  }
 `;
 
 const RedesSociais = styled.ul`

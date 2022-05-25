@@ -9,11 +9,20 @@ const SobreComponent = styled.section`
 `;
 
 const SobreContainer = styled.div`
-  width: 70%;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   gap: 2rem;
+  @media (max-width: 1100px) {
+    width: 800px;
+  }
+
+  @media (max-width: 800px) {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ColaboramosContainer = styled.article`

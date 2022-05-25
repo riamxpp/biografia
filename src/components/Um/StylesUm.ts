@@ -17,6 +17,12 @@ const NumeroUm = styled.div`
   text-align: center;
   padding-bottom: 3rem;
   border-bottom: 1px solid #fff;
+  @media (max-width: 850px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 350px;
+  }
 `;
 
 const NumeroUmTitulo = styled.h2`
@@ -27,6 +33,13 @@ const NumeroUmTitulo = styled.h2`
   margin: 0 auto;
   text-align: center;
   margin-top: 51px;
+  @media (max-width: 850px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 350px;
+    font-size: 2.25rem;
+  }
 `;
 
 const NumeroUmContainerSeta = styled.div`

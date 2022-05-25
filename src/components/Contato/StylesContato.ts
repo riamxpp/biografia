@@ -16,6 +16,10 @@ const ContatoTitulo = styled.h2`
   font-family: "Merriweather", serif;
   font-size: 48px;
   color: ${colors.titleColor};
+  @media (max-width: 850px) {
+    width: 450px;
+    text-align: center;
+  }
 `;
 
 const ContatoTelefone = styled.span`

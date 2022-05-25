@@ -13,10 +13,18 @@ const InformacoesContainer = styled.div`
   margin: 0 auto;
   display: flex;
   gap: 50px;
+  @media (max-width: 1100px) {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const InformacoesCaixaEsquerda = styled.article`
   width: 500px;
+  @media (max-width: 600px) {
+    width: 350px;
+  }
 `;
 
 const InformacoesTitulo = styled.h5`
@@ -35,6 +43,9 @@ const InformacoesParagrafo = styled.p`
 
 const InformacoesCaixaDireita = styled.article`
   width: 500px;
+  @media (max-width: 600px) {
+    width: 350px;
+  }
 `;
 
 const InformacoesContainerAssinatura = styled.div`
