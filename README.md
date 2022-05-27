@@ -6,3 +6,6 @@ Baseado no https://nicepage.com/pt/css-templates/preview/biografia-do-artista-55
   <a href="https://pt-br.reactjs.org/">🔗 React</a> <br>
   <a href="https://www.typescriptlang.org/">🔗 Typescript</a><br>
 </h1>
+
+<h2> Veja como o site ficou no link abaixo: </h2>
+https://biografia-ladding-page.netlify.app
